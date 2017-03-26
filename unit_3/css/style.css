@@ -1,0 +1,45 @@
+body {
+	margin: 50px;
+	background: url("http://i.imgur.com/q0FaaAk.jpg");
+  	background-size: cover;
+	font-family: Apercu, Arial, sans-serif;
+	font-weight: 100;
+	color: white;
+}
+
+header {
+	padding: 10px;
+	margin: 20px;
+}
+
+h1 {
+	font-family: Caslon; serif;
+	font-weight: 100;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: 100;
+}
+
+#slogan {
+	font-style: italic;
+	font-weight: 100;
+}
+
+img {
+	width: 200px;
+	
+}
+
+section {
+	margin: 100px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-style: italic;
+}
