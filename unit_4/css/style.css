@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200');
+
+body {
+	margin: 50px;
+	background: black;
+  	background-size: cover;
+	font-family: 'Source Sans Pro', 'Arial', sans-serif;
+	font-size: 16px;
+	color: white;
+}
+
+header {
+	margin-left: 20px;
+}
+
+.navlinks {
+	margin: 20px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+h1 {
+	font-family: 'Lora', 'Times', serif;
+	font-weight: 100;
+	font-size: 3.5em;
+
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-style: italic;
+}
+
+#slogan {
+	font-weight: 100;
+	line-height: 1.5em;
+}
+
+h2 {
+	font-family: 'Lora', 'Times', Serif;
+	font-size: 2em;
+	font-weight: 100;
+	line-height: 1.3em;
+	color: 228,228,228;
+}
+
+hr {
+	border: none;
+	height: 3px;
+	background-color: white;
+	
+}
+
+#contact {
+	font-size: 1.5em;
+}
+
+section {
+	margin: 120px;
+}
+
+ul {
+	font-size: 1.5em;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+}
+
+img {
+	width: 100%;
+}
+
+h3 {
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.work {
+	width: 600px;
+	line-height: 0.5em;
+	text-align: right;
+}
