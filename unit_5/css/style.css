@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200');
+*{margin:0; padding:0; box-sizing: border-box;}
+
+
+body {
+	margin: 50px;
+	background: black;
+  	background-size: cover;
+	font-family: 'Source Sans Pro', 'Arial', sans-serif;
+	font-size: 16px;
+	color: white;
+}
+.clear:after{content:""; display: block; clear: both;}
+
+header {
+	margin: 0 auto;
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+    max-width: 1450px;
+    width: 100%;
+}
+
+nav {
+	width: 50%;
+	float: right;
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav a:hover {
+	text-decoration: line-through;
+}
+
+h1 {
+	font-family: 'Lora', 'Times', serif;
+	font-weight: 100;
+	font-size: 3.5em;
+}
+
+h2 {
+	font-family: 'Lora', 'Times', Serif;
+	font-size: 2em;
+	font-weight: 100;
+	line-height: 1.3em;
+	color: 228,228,228;
+	padding-bottom: 20px;
+}
+
+h3 {
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1250px;
+}
+
+.navlinks {
+	padding: 20px;
+	margin: 0 10px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	float: right;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-style: italic;
+}
+
+ul {
+	font-size: 1.5em;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+	padding-bottom: 20px;
+	padding-left: 25px;
+	border-bottom: 1px white solid;
+}
+
+#slogan {
+	padding-top: 10px;
+	font-weight: 100;
+	width: 50%;
+	float: left;
+}
+
+#mainleft {
+	float: left;
+	width: 50%;
+	padding-right: 30px;
+}
+
+#mainright {
+	float: right;
+	width: 50%;
+	padding-left: 30px;
+}
+
+img {
+	width: 100%;
+}
+
+.work {
+	line-height: 1.5;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.work h3 {
+	width: 60%;
+	float: left;
+}
+
+.work p {
+	width: 40%;
+	float: right;
+	text-align: right;
+
+}
+
+footer {
+	text-align: center;
+	font-size: .8em;
+	line-height: 2em;
+    border-top: 1px white solid;
+    clear: both;
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+section {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
