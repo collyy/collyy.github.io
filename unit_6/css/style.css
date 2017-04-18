@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200');
+*{margin:0; padding:0; box-sizing: border-box;}
+
+
+body {
+	margin: 50px;
+	background: black;
+  	background-size: cover;
+	font-family: 'Source Sans Pro', 'Arial', sans-serif;
+	font-size: 16px;
+	color: white;
+}
+.clear:after{
+	content:""; 
+	display: block; 
+	clear: both;
+}
+
+header {
+	margin: 0 auto;
+    max-width: 1450px;
+    width: 100%;
+    padding-bottom: 3%;
+}
+
+nav {
+	width: 50%;
+	float: right;
+}
+
+nav a:hover {
+	text-decoration: line-through;
+}
+
+h1 {
+	font-family: 'Lora', 'Times', serif;
+	font-style: italic;
+	font-weight: 100;
+	font-size: 3.5em;
+}
+
+h2 {
+	font-family: 'Lora', 'Times', Serif;
+	font-size: 2em;
+	font-weight: 100;
+	line-height: 1.3em;
+	color: 228,228,228;
+	padding-top: 5%;
+	padding-bottom: 2.5%;
+}
+
+h3 {
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1250px;
+}
+
+.navlinks {
+	padding-left: 20px;
+	padding-top: 20px;
+	margin: 0 10px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	float: right;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-style: italic;
+}
+
+ul {
+	font-size: 1.5em;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+	padding-bottom: 50px;
+	padding-left: 25px;
+	border-bottom: 1px white solid;
+}
+
+#slogan {
+	padding-top: 10px;
+	font-weight: 100;
+	width: 50%;
+	float: left;
+}
+
+#mainleft {
+	float: left;
+	width: 48%;
+	padding-right: 1.5%;
+}
+
+#mainright {
+	float: right;
+	width: 48%;
+	padding-left: 1.5%;
+}
+
+img {
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+.work {
+	line-height: 1.5;
+	margin-top: 10%;
+}
+
+.work img {
+	max-width: 582px;
+	display: block;
+	margin: auto;
+}
+
+.work h3 {
+	width: 60%;
+	float: left;
+	padding-bottom: 5%;
+}
+
+.work p {
+	width: 40%;
+	float: right;
+	text-align: right;
+
+}
+
+footer {
+	text-align: center;
+	font-size: .8em;
+	line-height: 2em;
+    border-top: 1px white solid;
+    clear: both;
+    padding: 5%;
+}
+
