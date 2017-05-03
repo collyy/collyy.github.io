@@ -27,6 +27,7 @@ header {
 nav {
 	width: 50%;
 	float: right;
+	padding-top: 20px;
 }
 
 nav a:hover {
@@ -91,12 +92,12 @@ footer {
 }
 
 .navlinks {
-	padding-left: 20px;
-	padding-top: 20px;
-	margin: 0 10px;
 	text-transform: uppercase;
 	letter-spacing: 5px;
-	float: right;
+	text-align: right;
+	display: block;
+	width: 33.33%;
+	float: left;
 }
 
 #slogan {
@@ -104,6 +105,10 @@ footer {
 	font-weight: 100;
 	width: 50%;
 	float: left;
+}
+
+#two_column {
+	margin-top: 5%;
 }
 
 #mainleft {
@@ -120,7 +125,7 @@ footer {
 
 .work {
 	line-height: 1.5;
-	margin-top: 10%;
+	margin-bottom: 5%;
 }
 
 .work img {
@@ -139,7 +144,6 @@ footer {
 	width: 40%;
 	float: right;
 	text-align: right;
-
 }
 
 .work img {
@@ -179,6 +183,7 @@ opacity: 1;
 	footer {
 		margin-top: 2%
 	}
+}
 
 @media screen and (max-width:900px){
 
@@ -197,13 +202,10 @@ opacity: 1;
 	
 	nav {
 		width: 100%;
-		float: none;
 		text-align: center;
-	}
-
-	.navlinks {
-		float: none;
-		padding: 3%;
+		border-bottom: 1px white solid;
+		border-top: 1px white solid;
+		padding: 3% 0;
 	}
 
 	h2 {
@@ -215,23 +217,19 @@ opacity: 1;
 		font-size: 1.2em;
 		line-height: 1.5em;
 	}
-	
-	nav {
-		border-bottom: 1px white solid;
-		border-top: 1px white solid;
-		padding: 3% 0;
+
+	.navlinks {
+		text-align: center;
+
 	}
 }
 
 @media screen and (max-width:800px){
-
+	
 	#mainleft, #mainright {
 		width: 100%;
 		float: none;
 	}
-}
-
-@media screen and (max-width:800px){
 
 	ul {
 		display: none;
@@ -242,11 +240,6 @@ opacity: 1;
 	}
 
 	.work img {
-		-webkit-transition: all .5s ease-in-out;   
-		-moz-transition: all .5s ease-in-out;   
-		-o-transition: all .5s ease-in-out;   
-		transition: all .5s ease-in-out;
-		-webkit-backface-visibility: hidden; /* Chrome, Safari, Opera */     backface-visibility: hidden;
 		-webkit-filter: grayscale(0);     filter: grayscale(0);
 		opacity: 1;
 		}
@@ -255,7 +248,6 @@ opacity: 1;
 		opacity: 1;
 		-webkit-filter: grayscale(0);     filter: grayscale(0);
 		}
-
 }
 
 @media screen and (max-width:600px){
@@ -278,11 +270,16 @@ opacity: 1;
 		float: none;
 	}
 
+	.navlinks {
+		width: 100%;
+		text-align: center;
+		padding: 3% 0;
+	}
 }
 
 @media screen and (max-width:440px){
 
-	nav a:link{
+	.navlinks {
 		display: block;
 		padding:15px;
 		margin:5px;
@@ -295,6 +292,5 @@ opacity: 1;
 	h2 {
 		display: none;
 	}
-
 }
 
