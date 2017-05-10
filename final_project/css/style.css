@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300');
+*{margin:0; padding:0; box-sizing: border-box;}
+
+
+body {
+	margin: 50px;
+	background: black;
+  	background-size: cover;
+	font-family: 'Source Sans Pro', 'Arial', sans-serif;
+	font-size: 16px;
+	color: white;
+}
+.clear:after{
+	content:""; 
+	display: block; 
+	clear: both;
+}
+
+header {
+	margin: 0 auto;
+    max-width: 1450px;
+    width: 100%;
+    padding-bottom: 2.5em;
+}
+
+nav {
+	width: 50%;
+	float: right;
+	padding-top: 20px;
+}
+
+nav a:hover {
+	text-decoration: line-through;
+}
+
+h1 {
+	font-family: 'Lora', 'Times', serif;
+	font-style: italic;
+	font-weight: 100;
+	font-size: 3.5em;
+}
+
+h2 {
+	font-family: 'Lora', 'Times', Serif;
+	font-size: 2em;
+	font-weight: 100;
+	line-height: 1.3em;
+	color: 228,228,228;
+	padding-top: 5%;
+	padding-bottom: 2.5%;
+}
+
+h3 {
+	text-transform: uppercase;
+	letter-spacing: .3em;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-style: italic;
+}
+
+ul {
+	font-size: 1.5em;
+	line-height: 1.3em;
+	letter-spacing: .03em;
+	padding-bottom: 50px;
+	padding-left: 25px;
+	border-bottom: 1px white solid;
+}
+
+img {
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+footer {
+	text-align: center;
+	font-size: .8em;
+	line-height: 2em;
+    border-top: 1px white solid;
+    clear: both;
+    padding: 5%;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1250px;
+}
+
+.navlinks {
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-align: right;
+	display: block;
+	width: 33.33%;
+	float: left;
+}
+
+#slogan {
+	padding-top: 10px;
+	font-weight: 100;
+	width: 50%;
+	float: left;
+}
+
+#two_column {
+	margin-top: 5%;
+}
+
+#mainleft {
+	float: left;
+	width: 48%;
+	padding-right: 1.5%;
+}
+
+#mainright {
+	float: right;
+	width: 48%;
+	padding-left: 1.5%;
+}
+
+.work {
+	line-height: 1.5;
+	margin-bottom: 5%;
+}
+
+.work img {
+	max-width: 582px;
+	display: block;
+	margin: auto;
+}
+
+.work h3 {
+	width: 60%;
+	float: left;
+	padding-bottom: 5%;
+}
+
+.work p {
+	width: 40%;
+	float: right;
+	text-align: right;
+}
+
+.work img {
+-webkit-transition: all .5s ease-in-out;   
+-moz-transition: all .5s ease-in-out;   
+-o-transition: all .5s ease-in-out;   
+transition: all .5s ease-in-out;
+-webkit-backface-visibility: hidden; /* Chrome, Safari, Opera */     backface-visibility: hidden;
+-webkit-filter: grayscale(1);     filter: grayscale(1);
+opacity: 0.6;
+}
+
+.work:hover img {
+opacity: 1;
+-webkit-filter: grayscale(0);     filter: grayscale(0);
+}
+
+
+@media screen and (max-width:1290px){
+	
+	.work p {
+		display: block;
+		float: none;
+		width: 100%;
+		text-align: center;
+		padding-bottom: 2%;
+
+	}
+	.work h3 {
+		display: block;
+		float: none;
+		width: 100%;
+		text-align: center;
+		padding-bottom: 0;
+	}
+
+	footer {
+		margin-top: 2%
+	}
+}
+
+@media screen and (max-width:900px){
+
+	h1 {
+		width: 100%;
+		text-align: center;
+	}
+
+	#slogan {
+		float: none;
+		width: 100%;
+		text-align: center;
+		padding-bottom: 5%;
+		font-size: 2em;
+	}
+	
+	nav {
+		width: 100%;
+		text-align: center;
+		border-bottom: 1px white solid;
+		border-top: 1px white solid;
+		padding: 3% 0;
+	}
+
+	h2 {
+		font-size: 1.3em;
+		line-height: 1.6em;
+	}
+
+	ul {
+		font-size: 1.2em;
+		line-height: 1.5em;
+	}
+
+	.navlinks {
+		text-align: center;
+
+	}
+}
+
+@media screen and (max-width:800px){
+	
+	#mainleft, #mainright {
+		width: 100%;
+		float: none;
+	}
+
+	ul {
+		display: none;
+	}
+
+	h2 {
+		text-align: center;
+	}
+
+	.work img {
+		-webkit-filter: grayscale(0);     filter: grayscale(0);
+		opacity: 1;
+		}
+
+	.work:hover img {
+		opacity: 1;
+		-webkit-filter: grayscale(0);     filter: grayscale(0);
+		}
+}
+
+@media screen and (max-width:600px){
+
+	#slogan {
+		font-size: 1.5em;
+	}
+
+	h2 {
+		font-size: 1em;
+	}
+
+	section {
+		margin: 0 10%;
+	}
+
+	body {
+		margin-left: 0;
+		margin-right: 0;
+		float: none;
+	}
+
+	.navlinks {
+		width: 100%;
+		text-align: center;
+		padding: 3% 0;
+	}
+}
+
+@media screen and (max-width:440px){
+
+	.navlinks {
+		display: block;
+		padding:15px;
+		margin:5px;
+	}
+
+	#slogan {
+		padding-top: 0;
+	}
+
+	h2 {
+		display: none;
+	}
+}
+
